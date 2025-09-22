@@ -9,3 +9,6 @@ docs/latex/
 # Служебные файлы
 *.o
 *.a
+# Doxygen backup files
+Doxyfile.bak
+*.bak
