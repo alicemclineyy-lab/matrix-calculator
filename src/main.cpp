@@ -35,7 +35,11 @@ int main() {
         std::cout << "\nTranspose of A:" << std::endl;
         print_matrix(E);
         
-        // Освобождаем память
+        // Тестируем индивидуальное задание - сумму элементов
+        double total_sum = matrix_sum(A);
+        std::cout << "\nSum of all elements in matrix A: " << total_sum << std::endl;
+
+        // Освобождаем память (КАЖДУЮ МАТРИЦУ ТОЛЬКО ОДИН РАЗ!)
         free_matrix(A);
         free_matrix(B);
         free_matrix(C);
